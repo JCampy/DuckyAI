@@ -1,6 +1,3 @@
-<p align="center">
-    <img src="https://img.icons8.com/?size=512&id=55494&format=png" align="center" width="30%">
-</p>
 <p align="center"><h1 align="center">DUCKYAI</h1></p>
 <p align="center">
 	<em>Whisper wisdom, code with a friendly quack!</em>
@@ -105,8 +102,8 @@ If you have suggestions or want to contribute, check out the [issues](https://gi
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/JCampy/DuckyAI/blob/master/src/.env.example'>main.py</a></b></td>
-				<td>- Initializes a GUI application for a rubber duck chatbot using AI models for speech recognition and generation.<br>- Sets up threads for audio capture, enhancing real-time interaction with the user.<br>- Facilitates seamless communication between the user and the duck window interface.</td>
+				<td><b><a href='https://github.com/JCampy/DuckyAI/blob/master/src/.env.example'>.env.example</a></b></td>
+				<td>- Provides a template for required environment variables.<br>- Includes placeholders for sensitive information such as API keys and model configuration.<br>- Helps users set up their own <code>.env</code> file to enable secure and correct operation of the application.</td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/JCampy/DuckyAI/blob/master/src/main.py'>main.py</a></b></td>
@@ -233,6 +230,12 @@ This project is licensed under the [MIT License](https://github.com/JCampy/Ducky
 
 ## 🙌 Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
+- [OpenAI](https://openai.com/) for the GPT models and API.
+- [Coqui TTS](https://github.com/coqui-ai/TTS) for open-source text-to-speech.
+- [SpeechRecognition](https://github.com/Uberi/speech_recognition) for audio input.
+- [PyQt](https://riverbankcomputing.com/software/pyqt/) for the GUI framework.
+- [Icons8](https://icons8.com/) for the duck icon.
+- Inspiration from the [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging) concept.
+- Thanks to all the open-source community!
 
 ---
