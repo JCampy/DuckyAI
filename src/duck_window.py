@@ -1,6 +1,6 @@
 import os
 from PyQt6.QtWidgets import QLabel, QMainWindow, QMenu, QApplication
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QTimer
 from PyQt6.QtGui import QPixmap, QAction
 
 class RubberDuck(QMainWindow):
@@ -65,4 +65,4 @@ class RubberDuck(QMainWindow):
     def handle_exit(self):
         print("Closing application")
         self.spt.update_run_condition()
-        QApplication.instance().quit()
+        QTimer.singleShot(0, QApplication.instance().quit)
